@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Layout, Header, Navigation, Drawer, Content  } from 'react-mdl';
-
-
+import Main from './components/main';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
@@ -11,22 +11,25 @@ class App extends Component {
     <Layout>
         <Header title="Title" scroll>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+            <Link to="/about">A Little About Me</Link>
+                <Link to="/resume">My Resume</Link>
+                <Link to="/projects">My Works</Link>
+                <Link to="/contact">Let's Talk</Link>
+               
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+            <Link to="/about">A Little About Me</Link>
+            <Link to="/resume">My Resume</Link>
+                <Link to="/projects">My Works</Link>
+                <Link to="/contact">Let's Talk</Link>
+               
             </Navigation>
         </Drawer>
         <Content>
             <div className="page-content" />
+            < Main />
         </Content>
     </Layout>
 </div>
