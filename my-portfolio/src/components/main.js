@@ -8,13 +8,13 @@ import About from './about';
 
 
 const Main = () => (
-    <switch>
+    <Switch>
         <Route exact path="/" component={Landing} />
         <Route  path="/contact" component={Contact} />
         <Route  path="/projects" component={Project} />
         <Route  path="/resume" component={Resume} />
         <Route  path="/about" component={About} />
-    </switch>
+    </Switch>
 )
 
 
