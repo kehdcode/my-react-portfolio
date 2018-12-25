@@ -14,9 +14,29 @@ class Landing extends Component {
             />
             <div className="banner-text">
                 <h1>Full stack Developer</h1>
-                <hr />
+                <hr className="stars"/>
                 <p>HTML/CSS| Boostrap| Materialize| JavaScript| Jquery| React Js| PHP| Node JS| Express |MongoDB </p>
+                <div className="social-link">
+            <a href="https://github.com/kehdcode" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-github-square"  arial-hidden="true"></i>
+            </a>
+            <a href="https://github.com/kehdcode" rel="noopener noreferrer"  target="_blank">
+            <i className="fa fa-linkedin-square"  arial-hidden="true"></i>
+            </a>
+            <a href="https://github.com/kehdcode" rel="noopener noreferrer"  target="_blank">
+            <i className="fa fa-facebook-square" arial-hidden="true"></i>
+            </a>
+            <a href="https://github.com/kehdcode" rel="noopener noreferrer"  target="_blank">
+            <i className="fa fa-twitter-square" arial-hidden="true"></i>
+            </a>
+            <a href="https://github.com/kehdcode" rel="noopener noreferrer"  target="_blank">
+            <i className="fa fa-medium" arial-hidden="true"></i>
+            </a>
+           
+
             </div>
+            </div>
+            
         </Cell>
 
         
