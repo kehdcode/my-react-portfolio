@@ -5,12 +5,12 @@ class Landing extends Component {
     
     render(){
         return (
-            <div> 
-                <h1>
-                    Landing Page
-                </h1>
-            </div>
-        )
+            <div>
+            <Grid className="landing-grid">
+        <Cell col={12}>4</Cell>
+        
+    </Grid>
+    </div>
     }
 }
 
