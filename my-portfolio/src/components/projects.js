@@ -12,7 +12,7 @@ class Project extends Component {
             return(
                 <div className="projects-grid">
                     {/*Project 1 */}
-                  <Card shadow={5} style={{width: '250', margin: 'auto'}}>
+                  <Card shadow={5} style={{width: '250', margin: 'auto'}} className="card-thing" >
     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
     <CardText>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -29,7 +29,7 @@ class Project extends Component {
 </Card>
 
 {/*Project 1 */}
-                  <Card shadow={5} style={{width: '250', margin: 'auto'}}>
+                  <Card shadow={5} style={{width: '250', margin: 'auto'}} className="card-thing" >
     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
     <CardText>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -46,7 +46,7 @@ class Project extends Component {
 </Card>
 
 {/*Project 1 */}
-                  <Card shadow={5} style={{width: '250', margin: 'auto'}}>
+                  <Card shadow={5} style={{width: '250', margin: 'auto'}} className="card-thing">
     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
     <CardText>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.

@@ -11,22 +11,23 @@ class App extends Component {
     <Layout>
         <Header title="Kehdcode" scroll>
             <Navigation>
-            <Link to="/about">A Little About Me</Link>
+            <Link to="/">Home</Link>
                 <Link to="/resume">My Resume</Link>
                 <Link to="/projects">My Works</Link>
                 <Link to="/contact">Let's Talk</Link>
                
             </Navigation>
         </Header>
-        <Drawer title="Kehdcode">
+    <Drawer title="Kehdcode">
             <Navigation>
-            <Link to="/about">A Little About Me</Link>
+            <Link to="/">Home</Link>
             <Link to="/resume">My Resume</Link>
                 <Link to="/projects">My Works</Link>
                 <Link to="/contact">Let's Talk</Link>
                
             </Navigation>
         </Drawer>
+
         <Content>
             <div className="page-content" />
             < Main />
