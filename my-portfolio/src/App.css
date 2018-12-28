@@ -46,6 +46,9 @@
   width: 50%;
   margin: auto;
 }
+.fa:hover {
+  color: rgb(63,81,181);
+}
 
 .social-link i {
   color: #fff;

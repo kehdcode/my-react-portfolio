@@ -20,13 +20,13 @@ class Landing extends Component {
             <a href="https://github.com/kehdcode" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square"  arial-hidden="true"></i>
             </a>
-            <a href="https://github.com/kehdcode" rel="noopener noreferrer"  target="_blank">
+            <a href="https://www.linkedin.com/in/ahmed-dawood-711b38a5/" rel="noopener noreferrer"  target="_blank">
             <i className="fa fa-linkedin-square"  arial-hidden="true"></i>
             </a>
             <a href="https://github.com/kehdcode" rel="noopener noreferrer"  target="_blank">
             <i className="fa fa-facebook-square" arial-hidden="true"></i>
             </a>
-            <a href="https://github.com/kehdcode" rel="noopener noreferrer"  target="_blank">
+            <a href="https://twitter.com/kehdcode" rel="noopener noreferrer"  target="_blank">
             <i className="fa fa-twitter-square" arial-hidden="true"></i>
             </a>
             <a href="https://github.com/kehdcode" rel="noopener noreferrer"  target="_blank">
