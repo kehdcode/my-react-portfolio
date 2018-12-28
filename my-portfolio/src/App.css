@@ -99,6 +99,24 @@
   font-size: 66px;
   padding-right: 5rem;
 }
+/* Resume page */
+.resume-right-col {
+  background: #27221f;
+  color: #fff;
+  padding: 2em;
+}
+.resume-avatar-img{
+  height: 200px;
+  border-radius: 50%;
+}
+.resume-name {
+  padding-top: 2em;
+  text-align: center;
+}
+.resume-role {
+  text-align: center;
+  color: gray;
+}
 
 /*Media Queries */
 /* Smartphones (portrait and landscape) ----------- */
